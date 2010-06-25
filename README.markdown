@@ -27,7 +27,8 @@ JavaScript Lint
 > With JavaScript Lint, you can check all your JavaScript source code for common mistakes without actually running the script or opening the web page.
 <http://javascriptlint.com/>
 
-* **Validate Syntax** (⌃⇧V) uses Matthias Miller's JavaScript Lint to check your script for errors and warnings and shows the results in a new window. The *Validate JavaScript* window will give you a description and hyperlink when problems are found. The hyperlink will take you straight to the line and column where JavaScript Lint suspects the problem arises.
+* **Validate Syntax** (⌃⇧V) uses Matthias Miller's JavaScript Lint, Google's Closure compiler, or Douglas Crockford's JSLint (Rhino and jslint.js are required as of this version) to check your script for errors and warnings and shows the results in a new window. The *Validate JavaScript* window will give you a description and hyperlink when problems are found. The hyperlink will take you straight to the line and column where JavaScript Lint suspects the problem arises.
+
 
 * **Validate Syntax Quick** (⌘S) same as above except that instead of a dedicated window you simply get a tooltip showing the number of errors and warnings. This command overrides the Save behavior so every time you save your javascript it will be passed through jslint. Of course it only applies to javascript files so you don't need to worry about accidentally jslint'ing your non-javascript files.
 
